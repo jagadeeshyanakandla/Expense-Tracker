@@ -1,0 +1,60 @@
+
+
+.App{
+  /* text-align: center; */
+  display: flex;
+  margin-left: 140px;
+  margin-top: 40px;
+  width: 80%;
+  height: 90vh;
+  background-color: chartreuse;
+  color: brown;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  width: 40%;
+  border: 2px solid brown;
+}
+.btns{
+  width: 100%;
+}
+.cards{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.cards div.card{
+  width: 200px !important;
+}
+.balance{
+  width: 50% !important;
+  padding: 14px 20px;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  border: none;
+  border-radius: 4px;
+  margin: 08 0px;
+  cursor: pointer;
+}
+
+.output{
+  background-color: blueviolet;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 24px;
+  width: 100%;
+}
+
+.Expt{
+  color: blueviolet;
+}
+
+.midle{
+  margin-left: 20px;
+  height: 300px;
+}
